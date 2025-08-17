@@ -1,16 +1,40 @@
 /* For screens between 420px and 900px */
-@media (max-width: 900px) and (min-width: 420px) {
-    .first_after_header {
-        font-size: 50px; /* shrink text to fit screen */
-        white-space: normal; /* allow wrapping if it overflows */
-        font-weight: 900;
-    }
-    .second_after_header{
-font-weight:200;
-color:rgb(102, 102, 102);
-font-size:15px;
-gap: 2px;
-line-height: 1.6;
+@media (max-width: 900px) and (min-width: 380px) {
+    .boder_padding{
+  padding-left:5px !important;
+  padding-top:20px;
+}
+.wrapped{
+  font-size:60px;
+  display: flex;
+  justify-content: center;
+  color:white;
+   font-weight: 800;
+   padding-top:40px;
+}
+.x{
+  font-size:55px;
+  display: flex;
+  justify-content: center;
+
+  font-weight: 600;
+  padding-top:20px;
+}
+.empower{
+  color:white;
+  font-size:25px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  padding-top:22px;
+
+}
+.opacity{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  opacity: .7;
 }
 
 }
