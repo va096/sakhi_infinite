@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>WsCubeTube</title>
+</head>
+<body>
+<header class="container-fluid background_head">
+    <nav class="navbar navbar-expand-lg navbar-light logo">
+        <div class="container-fluid  ">
+            
+            <!-- Left: Logo -->
+            <a href="home.html" class="navbar-brand">
+                <img src="wf2NIo01.svg" width="150">
+                
+            </a>
+
+            <!-- Mobile Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Middle + Right -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <div class="d-flex flex-grow-1 justify-content-center  ">
+                    <!-- Middle: First UL -->
+                    <ul class="nav flex-row gap-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link  center_header" href="#"><b>Dashboard</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link center_header" href="#"><b>Services</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link center_header" href="#"><b>Capabilities</b></a>
+                        </li>
+                       <li class="nav-item">
+                            <a class="nav-link center_header" href="#"><b>About</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link center_header" href="#"><b>Contact</b></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right: Second UL -->
+                <ul class="navbar-nav ms-auto flex-row gap-3 login_padding">
+                    <li class="nav-item signup">
+                        <button class="btn">
+                            <span class="description">Login</span>
+                            <div class="ocean"></div>
+                        </button>
+                    </li>
+
+                    <li class="nav-item signup">
+                        <button class="btn">
+                            <span class="description">Sign Up</span>
+                            <div class="ocean"></div>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<div class="container-fluid after_header_complete_background text-section">
+    <div class="container boder_padding">
+        <h6 id="next-ai" class="text-white border_ai">✨ Next-Gen AI Wrapper Platform ⚡</h6>
+    </div>
+    <div class="container">
+        <h1 class="wrapped fade-text">Wrapped</h1>
+    </div>
+    <div class="container">
+        <h1 class="x multicolor-text fade-text">IntelligenceX</h1>
+    </div>
+    <div class="container-fluid">
+        <h1 class="d-flex justify-content-center empower fade-text">
+            Empower Your Brand with AI Excellence
+        </h1>
+    </div>
+    <div class="container">
+        <h1 class="d-flex justify-content-center opacity fade-text">
+            Transform your AI models into powerful, branded solutions that drive results and
+        </h1>
+        <h1 class="d-flex justify-content-center opacity fade-text">
+            captivate your audience with enterprise-grade performance.
+        </h1>
+    </div>
+    <div class="container border_after_h1_padding btn-section">
+        <button class="btn border_after_h1"><b>⚡ Start Wrapping Now</b></button>
+        <button class="btn border_after_h2"><b>▶️ Watching Now</b></button>
+    </div>
+</div>
+
+
+<script>
+  
+  const buttons = document.querySelectorAll(".btn-section .btn");
+
+  const fadeTexts = document.querySelectorAll(".fade-text");
+
+   buttons.forEach(btn => {
+    btn.addEventListener("mouseenter", () => {
+      fadeTexts.forEach(text => text.style.opacity = "0.2");
+    });
+
+    
+    btn.addEventListener("mouseleave", () => {
+      fadeTexts.forEach(text => text.style.opacity = "1");
+    });
+  });
+    const nextAi = document.getElementById("next-ai");
+  const otherTexts = document.querySelectorAll(".fade-text"); // other texts have fade-text
+
+  nextAi.addEventListener("mouseenter", () => {
+    otherTexts.forEach(text => text.style.opacity = "0.2");
+  });
+
+  nextAi.addEventListener("mouseleave", () => {
+    otherTexts.forEach(text => text.style.opacity = "1");
+  });
+</script>
+
+</body>

@@ -1,0 +1,314 @@
+.logo {
+    margin-top: -20px !important;
+}
+.center_header{
+    color:rgba(0, 0, 0, 0.664) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold !important;
+    
+}
+.background_head{
+    background-color: #D7D1DE !important;
+    height:110px !important;
+}
+
+
+
+.precision {
+    display: block;       
+    text-align: center;   
+}
+
+.nav .nav-link.center_header:hover {
+    background-color: #16BD85; 
+    border: 2px solid #16BD85;               
+    transform: scale(1.1);                 
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 15px !important;
+}
+.login_padding{
+    padding-right: 150px !important;
+}
+:root {
+  --dark-gray: #2661d6;
+  --ocean: #0c1b35;
+  --light: #fff;
+}
+
+/* Sign Up Button */
+.signup .btn {
+  background: var(--ocean);
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 12px 40px;    
+  border-radius: 11px;
+  font-size: 16px;
+  overflow: hidden;
+  color: var(--light);
+  letter-spacing: 3px;
+  transition: transform 0.3s ease;
+}
+
+.signup .btn:hover {
+  transform: scale(1.1);
+}
+
+.signup .btn .description {
+  z-index: 2;
+  position: relative;
+}
+
+.signup .btn .ocean {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 100%;
+  height: 250px;
+  transition: 0.5s;
+}
+
+.signup .btn .ocean:before,
+.signup .btn .ocean:after {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 200%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -85%);
+}
+
+
+
+.signup .btn .ocean:after {
+  border-radius: 40%;
+  background: #9D43EF;
+  animation: moveOcean 2s linear infinite;
+}
+
+@keyframes moveOcean {
+  0%, 100% { transform: translate(-50%, -75%) scale(1); }
+  50% { transform: translate(-50%, -75%) scale(1.1); }
+}
+.after_header_complete_background {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzU3a0rbzRKjPlJw8PjGn8eErk2H2hv4KEyA&s");
+  background-size: cover;
+  background-position: center;
+  height: 700px;         
+  .logo {
+    margin-top: -20px !important;
+}
+.center_header{
+    color:rgba(0, 0, 0, 0.664) ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold !important;
+    
+}
+.background_head{
+    background-color: #D7D1DE !important;
+    height:110px !important;
+}
+
+
+
+.precision {
+    display: block;       
+    text-align: center;   
+}
+
+.nav .nav-link.center_header:hover {
+    background-color: #16BD85; 
+    border: 2px solid #16BD85;               
+    transform: scale(1.1);                 
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 15px !important;
+}
+.login_padding{
+    padding-right: 150px !important;
+}
+:root {
+  --dark-gray: #2661d6;
+  --ocean: #0c1b35;
+  --light: #fff;
+}
+
+/* Sign Up Button */
+.signup .btn {
+  background: var(--ocean);
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+  padding: 12px 40px;    
+  border-radius: 11px;
+  font-size: 16px;
+  overflow: hidden;
+  color: var(--light);
+  letter-spacing: 3px;
+  transition: transform 0.3s ease;
+}
+
+.signup .btn:hover {
+  transform: scale(1.1);
+}
+
+.signup .btn .description {
+  z-index: 2;
+  position: relative;
+}
+
+.signup .btn .ocean {
+  position: absolute;
+  left: 0;
+  top: -100px;
+  width: 100%;
+  height: 250px;
+  transition: 0.5s;
+}
+
+.signup .btn .ocean:before,
+.signup .btn .ocean:after {
+  content: '';
+  position: absolute;
+  width: 150%;
+  height: 200%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -85%);
+}
+
+
+
+.signup .btn .ocean:after {
+  border-radius: 40%;
+  background: #9D43EF;
+  animation: moveOcean 2s linear infinite;
+}
+
+@keyframes moveOcean {
+  0%, 100% { transform: translate(-50%, -75%) scale(1); }
+  50% { transform: translate(-50%, -75%) scale(1.1); }
+}
+.after_header_complete_background {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzU3a0rbzRKjPlJw8PjGn8eErk2H2hv4KEyA&s");
+  background-size: cover;
+  background-position: center;
+  height: 700px;         
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+     
+}
+.boder_padding{
+  padding-left:24em;
+  padding-top:20px;
+}
+.border_ai{
+  border:.5px solid rgb(177, 177, 177);
+  border-radius: 60px;
+  width:350px;
+  background-color: #484052;
+  padding: 8px;
+  position: relative;
+  height: 47px;
+  display: flex;
+  flex-direction: column;   /* <---- important */
+  justify-content: center;  /* vertical centering */
+  align-items: center;    
+    
+  transition: transform 1.5s ease; 
+}
+.border_ai:hover{
+  transform: scale(1.3);
+}
+     
+}
+.border_ai{
+  border:.5px solid rgb(177, 177, 177);
+  border-radius: 60px;
+  width:350px;
+  background-color: #484052;
+  padding: 8px;
+  position: relative;
+  height: 47px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;  
+  transition: transform 1.5s ease; 
+}
+.border_ai:hover{
+  transform: scale(1.3);
+}
+.wrapped{
+  font-size:110px;
+  display: flex;
+  justify-content: center;
+  color:white;
+   font-weight: 600;
+}
+.multicolor-text {
+  font-size: 60px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #4A90E2, #9B59B6, #E91E63);  
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.x{
+  font-size:100px;
+  display: flex;
+  justify-content: center;
+  margin-top:-20px !important;
+  font-weight: 600;
+}
+.empower{
+  color:white;
+  font-size:50px;
+  font-weight: 500;
+}
+.opacity{
+  color:white;
+  font-size: 20px;
+  opacity: .7;
+}
+.border_after_h2{
+  border:2px solid rgb(250, 250, 250);
+  transition: transform 2s ease; 
+  border-radius: 100px;
+  width:208px;
+  height:60px;
+  font-size:3vh !important;
+  color:white;
+}
+.border_after_h1{
+  border:2px solid #8F40DA;
+  background-color: #8F40DA;
+  border-radius: 100px;
+  width:280px;
+  height:60px;
+  font-size:3vh !important;
+  color:white;
+  opacity: .9;
+  transition: transform 2s ease; 
+}
+.border_after_h1_padding{
+   display: flex;
+   justify-content: center;
+   gap:30px;
+   margin-top:60px;
+}
+.border_after_h1:hover{
+  transform: scale(.7);
+}
+.border_after_h2:hover{
+  transform: scale(.7);
+  background-color: white;
+}
+

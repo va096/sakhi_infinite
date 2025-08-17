@@ -1,0 +1,16 @@
+/* For screens between 420px and 900px */
+@media (max-width: 900px) and (min-width: 420px) {
+    .first_after_header {
+        font-size: 50px; /* shrink text to fit screen */
+        white-space: normal; /* allow wrapping if it overflows */
+        font-weight: 900;
+    }
+    .second_after_header{
+font-weight:200;
+color:rgb(102, 102, 102);
+font-size:15px;
+gap: 2px;
+line-height: 1.6;
+}
+
+}
